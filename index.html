@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+ </head>
+
+ 
+ <body data-bs-theme="light">
+    <header>
+<!-- MENÚ SUPERIOR -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PORTAFOLIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+<!-- BOTÓN DE TEMA OSCURO -->
+    <button onclick="cambiarTema()" class="btn rounded-fill"><i id="dl-icon" class="bi bi-moon-fill"></i></button>
+
+<!-- CONTENIDO DEL MENÚ -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#presentación">Presentación</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PROYECTOS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#proyectos">Mis proyectos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#competencias">Competencias</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="error.html">404</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+</header>
+
+
+<!--BOTÓN DE DESPLAZAMIENTO A INICIO-->
+<button id="toTopBtn" title="Volver al inicio">
+    <i class="fas fa-chevron-up"></i>
+</button>
+    
+
+<!-- INICIO DE CARRUSEL -->
+    <section class="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+<!-- IMÁGENES DE CARRUSEL -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://res.cloudinary.com/dplflsmv1/image/upload/v1713245143/js4tjt6xko3kafqaiyau.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/dplflsmv1/image/upload/v1713245135/zymhivd77ytuinlh5cgo.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/dplflsmv1/image/upload/v1713245142/jpqcjsrrchazweojgxwb.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+
+<!-- SECCIÓN DE PRESENTACIÓN -->
+<section class="Presentación my-5">
+    <h2 class="text-center my-5" id="presentación">Presentación</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img class="img-fluid" src="https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/57/0e/4a/570e4aa7-d95c-ad17-f063-fd57c753a391/198500311518.jpg/1200x1200bb.jpg" id="foto" alt="">
+                </div>
+                <div class="col-6 text-justify">
+                   <p> ¡Hola!, mi nombre es Janeth y soy estudiante de la Licenciatura de Diseño Gráfico en la universidad de ITSON Guaymas. Como parte de la formación y los proyectos del semestre, el crear mi propia página web es uno de ellos, ¡interesante, ¿verdad?!
+                   </p>
+                   
+                   <p> Es así como te doy la bienvenida a mi portafolio web, en donde comparto la estructura visual que ha tomado; asimismo, un poco de lo que he realizado durante este cuarto semestre del programa educativo LDG. He decidido darle un poco de visibilidad a mis trabajos a través de este medio. Aún estoy en proceso de aprendizaje, pero todo es trabajo duro y honesto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- SECCIÓN DE PROYECTOS -->
+<section class="Proyectos my-5">
+    <h2 class="text-center my-5">Acerca de:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-justify">
+                   <p> Este Portafolio forma parte de la materia de nombre Diseño Web. Se abarcan conocimientos del front-end y back-end, sobre el diseño visual y estructura de la página, los tipos de lenguajes que utiliza para que tenga un funcionamiento óptico, y más.
+                   </p>
+                   
+                   <p> El contenido que aquí se muestra son proyectos elaborados en la materia de Diseño Editorial del mismo semestre. En el que se evalúa la composición y diseño de los productos solicitados. Se trabajó en una carátula completa de la caja de un videojuego, folleto, sobrecubierta completa de libros, etc.
+                </div>
+            <div class="col-6">
+                    <img class="img-fluid" src="https://www.shutterstock.com/image-photo/graphic-designer-work-on-computer-600nw-2314265707.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- SECCIÓN PROYECTOS EN CARDS -->
+    <section class="Proyectos my-5">
+    <h2 class="text-center my-5" id="proyectos">Mis proyectos</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card text-center">
+  <img src="https://res.cloudinary.com/dplflsmv1/image/upload/v1713245135/zymhivd77ytuinlh5cgo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">Videojuego</h5>
+  <p class="card-text">La temática era seleccionar un videojuego y diseñar toda la carátula de la caja, esta de acuerdo al tipo de consola.</p>
+  </div>
+</div>
+</div>
+
+<div class="col-4">
+    <div class="card text-center">
+  <img src="https://res.cloudinary.com/dplflsmv1/image/upload/v1713245142/jpqcjsrrchazweojgxwb.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">Sobrecubierta de libros</h5>
+  <p class="card-text">En esta ocasión, se diseñó la sobrecubierta completa (o cubre polvos) de una franquicia de libros. ¡Muy genial de diseñar!</p>
+  </div>
+</div>
+</div>
+
+<div class="col-4">
+    <div class="card text-center">
+  <img src="https://res.cloudinary.com/dplflsmv1/image/upload/v1713245142/fph8usoduf6rmaxrxctb.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">Tríptico del videojuego</h5>
+  <p class="card-text">En esta actividad se brinda un tríptico donde se informa de manera breve el argumento del videojuego y otros detalles.</p>
+  </div>
+</div>
+</div>
+
+<div class="col-4">
+    <div class="card text-center">
+  <img src="https://res.cloudinary.com/dplflsmv1/image/upload/v1713245125/tfxho0lwvn9h5eoxd7ry.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">Videojuego [interior]</h5>
+  <p class="card-text">El interior también contempla un diseño. El disco está cubierto con la temática del videojuego y se agrega un contenido adicional (izquierda). Muy gratificante de hacer.</p>
+  </div>
+</div>
+</div>
+
+<div class="col-4">
+    <div class="card text-center">
+  <img src="https://res.cloudinary.com/dplflsmv1/image/upload/v1713245140/swtduyutp7hucx5zxlwp.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">Libros [contraparte]</h5>
+  <p class="card-text">La parte trasera es acompalada de una ilustración y un breve resumen del contenido del libro.</p>
+  </div>
+</div>
+</div>
+
+<div class="col-4">
+    <div class="card text-center">
+  <img src="https://res.cloudinary.com/dplflsmv1/image/upload/v1713245143/js4tjt6xko3kafqaiyau.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">Diseños</h5>
+  <p class="card-text">Se tuvo en cuenta la esencia de los títulos, dándoles un visual fresco que expresara parte de su trama. Fueron proyectos realmente divertidos de hacer.</p>
+  </div>
+</div>
+</div>
+
+    </section>
+
+
+<!-- SECCIÓN DE COMPETENCIAS --> 
+<section class="Competencias my-5">
+    <h2 class="text-center my-5" id="competencias">Competencias didácticas</h2>
+    <div class="container">
+    <div class="text-justify">
+                   <p> Las competencias didácticas son las capacidades humanas que constan de diferentes conocimientos, habilidades, pensamientos, carácter y valores de manera integral en las distintas interacciones que tienen las personas para la vida en los ámbitos personal, social y laboraral.
+                   </p>
+                   
+                   <p> Sabiendo esto, como estudiante siempre me ha gustado aprender nuevas habilidades que proporcionen a mis diseños tener un toque personal. Suelo ser autodidacta y tomo estilos de aprendizaje diversos, los adapto a mi comprensión/capacidad para posteriormente desarrollar las ideas. Uno de los programas de edición que me ha ayudado a adaptarme ha sido Photoshop, este a pesar de ser un editor de imágenes me ha abierto la puerta al mundo del diseño digital.</p>
+               </div>
+           </div>
+       </section>
+
+
+<!-- BARRAS DE PROGRESO -->
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+            <div class="myskill py-5">
+                <h1>Mis habilidades</h1>
+                
+                <div class="d-flex">
+                    <span>Dibujo</span>
+                    <div class="outbox1">
+                        <div class="innerbox1">
+                        </div>
+                    </div>
+                    <span>70%</span>
+                </div>
+                
+                <div class="d-flex">
+                    <span>Illustrator</span>
+                    <div class="outbox2">
+                        <div class="innerbox2"> 
+                        </div>
+                    </div>
+                    <span>20%</span>
+                </div>
+                
+                <div class="d-flex">
+                    <span>Photoshop</span>
+                    <div class="outbox3">
+                        <div class="innerbox3">
+                        </div>
+                    </div>
+                    <span>70%</span>
+                </div>
+                
+                <div class="d-flex">
+                    <span>Ortografía</span>
+                    <div class="outbox4">
+                        <div class="innerbox4">    
+                        </div>
+                    </div>
+                    <span>85%</span>
+                </div>
+                
+                <div class="d-flex">
+                    <span>Redacción</span>
+                    <div class="outbox5">
+                        <div class="innerbox5"> 
+                        </div>
+                    </div>
+                    <span>65%</span>
+                </div>
+                
+                <div class="d-flex">
+                    <span>HTML</span>
+                    <div class="outbox6">
+                        <div class="innerbox6">
+                        </div>
+                    </div>
+                    <span>10%</span>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PIE DE PÁGINA -->
+    <footer class="bg-dark p-2 text-center">
+        <div class="container" id="contacto">
+            <p class="text-white">¡Muchas gracias por visitar! <br>Contacto directo a: ilse.rodrigo194942@potros.itson.edu.mx</p>
+        </div>
+        <div class="socials">
+            <i class="bi bi-twitter text-white mx-1"></i>
+            <i class="bi bi-facebook text-white mx-1"></i>
+            <i class="bi bi-instagram text-white mx-1"></i>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </body>
+</html>
